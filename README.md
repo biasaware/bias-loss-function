@@ -27,11 +27,6 @@ for each of the methods can be found
 in [results/runs](https://github.com/biasawareprf/bias-aware-PRF/tree/main/results/runs) 
 directory.
 
-#### Table 1: Bias measurements using ARaB and LIWC-based metrics.
-
-
-
-
 ## Usage
 
 ##### In order to obtain a less biased neural ranker on the proposed bias-aware loss function, one should replicate the following steps:
