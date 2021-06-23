@@ -24,7 +24,7 @@ follows:
 We evaluate our approach by measuring the geneder bias in the retrieved lists
 of queries for our bias-aware expansion method against ADVBERT.  Associated run files
 for each of the methods can be found
-in [results/runs](https://github.com/biasawareprf/bias-aware-PRF/tree/main/results/runs) 
+in [results/runs](results/runs) 
 directory.
 
 ![](results/tables/table1.png)
