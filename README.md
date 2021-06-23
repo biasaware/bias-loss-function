@@ -27,6 +27,8 @@ for each of the methods can be found
 in [results/runs](https://github.com/biasawareprf/bias-aware-PRF/tree/main/results/runs) 
 directory.
 
+![](results/tables/table1.png)
+
 ## Usage
 
 ##### In order to obtain a less biased neural ranker on the proposed bias-aware loss function, one should replicate the following steps:
