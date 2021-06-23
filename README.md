@@ -29,6 +29,10 @@ directory.
 
 ![](results/tables/table1.png)
 
+![](results/tables/table2.png)
+
+![](results/tables/table3.png)
+
 ## Usage
 
 ##### In order to obtain a less biased neural ranker on the proposed bias-aware loss function, one should replicate the following steps:
