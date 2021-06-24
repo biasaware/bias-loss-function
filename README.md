@@ -53,7 +53,7 @@ Rekabsaz's SIGIR 2020 queries.
    The new training set can be formed by adding the boolean ARaB measure of each document as the 
    final column of the original MSMARCO training set. Format of the new training set will be:
    
-'<query, doc_positive_doc_negative, bias_doc_negative>'
+`<query, doc_positive_doc_negative, bias_doc_negative>`
 
 ###### We have taken advantage of OpenMatch implemetations (forked into [this repository](https://github.com/biasaware/OpenMatch)) for training bert-based models on our proposed loss function
 
