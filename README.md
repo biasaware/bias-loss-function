@@ -77,7 +77,7 @@ The command should be as follows:
    scripts for calculating the TF ARab and TF Boolean metrics introduced in 
    [Do Neural Ranking Models Intensify Gender Bias?](https://github.com/navid-rekabsaz/GenderBias_IR).
     In addition, the codes for the other metric namely, 
-   LIWC are included inside [LIWC](https://github.com/biasawareprf/bias-aware-PRF/tree/main/src/LIWC) 
+   LIWC are included inside [LIWC](src/LIWC) 
    directory. The LIWC lexicon is proprietary, so it is not included in this repository.
    The lexicon data can be purchased from [liwc.net](http://liwc.wpengine.com/).
 
