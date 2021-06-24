@@ -61,7 +61,7 @@ Rekabsaz's SIGIR 2020 queries.
 
 The command should be as follows:
 
-`python my_train_bias.py -model bert -train ./data/bias_dataset.tsv -dev ./data/dev.jsonl -save ./checkpoints/bert-tiny_bias-aware.bin -qrels ./data/qrels.dev.tsv -vocab prajjwal1/bert-mini -pretrain prajjwal1/bert-mini -res ./results/bert-tiny_bias-aware.trec -metric mrr_cut_10 -batch_size 16 -max_input 12800000 -epoch 1 -eval_every 10000 -max_doc_len 221 -max_query_len 32 -lr 3e-6 -n_warmup_steps 160000`
+`python train_bias_aware.py -model bert -train ./data/bias_dataset.tsv -dev ./data/dev.jsonl -save ./checkpoints/bert-tiny_bias-aware.bin -qrels ./data/qrels.dev.tsv -vocab prajjwal1/bert-mini -pretrain prajjwal1/bert-mini -res ./results/bert-tiny_bias-aware.trec -metric mrr_cut_10 -batch_size 16 -max_input 12800000 -epoch 1 -eval_every 10000 -max_doc_len 221 -max_query_len 32 -lr 3e-6 -n_warmup_steps 160000`
 
 4. Run `inference.py` to retrieve the relevant documents of the dev set queries.
 
